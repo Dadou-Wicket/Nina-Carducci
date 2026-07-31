@@ -38,6 +38,10 @@ nav a {
   color: #000;
 }
 
+.nav-pills .nav-item {
+  padding-inline: 10px;
+}
+
 .social-link img {
   width: 20px;
 }
@@ -78,23 +82,42 @@ nav a {
   margin-bottom: 60px;
   font-size: 30px;
 }
-.about-me__introduction {
-  font-family: "Spectral";
-  font-weight: 800;
-  font-style: italic;
-  width: 60%;
-}
-#about-me p {
+
+.about-me-texte {
   width: 80%;
   font-size: 14px;
 }
 
+.about-me-introduction {
+  font-family: "Spectral";
+  font-weight: 800;
+  font-style: italic;
+  width: 60%;
+  font-size: 1rem;
+  line-height: 1.2;
+  margin-bottom: 0.5rem;
+}
+
+h2 {
+  font-size: calc(1.3rem + 0.6vw);
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+  line-height: 1.2;
+}
+
+.service-price-value {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+  line-height: 1.2;
+}
 #gallery {
   /*	min-height: 100vh; */
 }
 .title {
   text-align: center;
   padding-block: 2em;
+  font-size: 1.75rem;
 }
 .gallery .nav {
   justify-content: center;
@@ -148,6 +171,9 @@ nav a {
   font-family: Spectral;
   font-style: italic;
   font-weight: 300;
+  font-size: 2.5rem;
+  line-height: 1.2;
+  margin-bottom: 0.5rem;
 }
 .quote__author {
   font-family: Spectral;
@@ -288,7 +314,7 @@ input[type="submit"] {
     height: auto;
     margin: 2em 0;
   }
-  .service__description {
+  .service-description {
     margin-bottom: 1em;
   }
 
