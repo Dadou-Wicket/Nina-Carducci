@@ -44,8 +44,8 @@ nav a {
 
 .social-link img {
   width: 20px;
+  height: 20px;
 }
-
 #about {
   display: flex;
   background-color: #f6d2b8;
@@ -73,6 +73,8 @@ nav a {
 
 .picture img {
   width: 100%;
+  height: auto;
+  display: block;
 }
 #about-me {
   flex: 2;
