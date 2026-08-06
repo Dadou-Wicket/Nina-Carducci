@@ -54,6 +54,12 @@ nav a {
   position: relative;
 }
 
+.carousel-item img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
 .picture.left::before {
   content: " ";
   background-color: #e5975f;
