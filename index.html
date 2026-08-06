@@ -26,6 +26,25 @@
     ></script>
     <script defer src="./assets/maugallery.js"></script>
     <script defer src="./assets/scripts.js"></script>
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "ProfessionalService",
+        "@id": "https://dadou-wicket.github.io/Nina-Carducci/#business",
+        "name": "Nina Carducci",
+        "image": "https://dadou-wicket.github.io/Nina-Carducci/assets/images/nina.webp",
+        "url": "https://dadou-wicket.github.io/Nina-Carducci/",
+        "telephone": "+33556677889",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "68 Avenue Alsace-Lorraine",
+          "postalCode": "33200",
+          "addressLocality": "Bordeaux",
+          "addressCountry": "FR"
+        },
+        "openingHours": "Mo-Fr 10:00-19:00"
+      }
+    </script>
   </head>
   <body>
     <header>
@@ -41,13 +60,15 @@
               class="social-link"
               href="https://www.instagram.com/ninacarducci.photo/?hl=fr"
               target="_blank"
-              ><img
+              aria-label="Compte Instagram de Nina Carducci"
+            >
+              <img
                 src="assets/images/instagram.png"
                 alt=""
-                aria-label="Compte Instagram de Nina Carducci"
                 width="40"
                 height="40"
-            /></a>
+              />
+            </a>
           </li>
         </ul>
       </nav>
